@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <!--        android:layout_below="@+id/top">-->
+
+    <EditText
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/backTint"
+        android:fontFamily="sans-serif"
+        android:text="Пожертвования"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="21sp" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="238dp"
+        android:text="У вас пока нет сборов."
+        android:textAlignment="center"
+        android:textColor="@color/textColorVk2"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:text="Начните доброе дело."
+        android:textAlignment="center"
+        android:textColor="@color/textColorVk2"
+        android:textSize="15sp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="130.5dp"
+        android:layout_marginTop="13dp"
+        android:backgroundTint="@color/btn1"
+        android:onClick="click"
+        android:text="Создать сбор"
+        android:textSize="11sp" />
+
+    />
+
+</LinearLayout>
